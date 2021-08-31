@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Azeret Mono','Ubuntu','Roboto Slab', monospace;
+    background:url('https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.head{
+    background-color: rgba(17, 17, 17, 0.294);
+    height: 90px;
+    width: 1422px;
+}
+
+.head>div{
+    display: inline-block;
+}
+
+#icon{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 30px;
+}
+
+#icon-txt{
+    color: black;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    font-weight: bold;
+}
+
+.mid{
+    position: relative;
+    left: 258px;
+    bottom: 22px;
+}
+
+.ind-list{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.list-link{
+    color: rgba(255, 255, 255, 0.911);
+    text-decoration: none;
+    text-shadow: 2px 2px 0px rgb(0,0,0);
+}
+
+.list-link:hover{
+    color: rgba(127, 255, 115, 0.76);
+}
+
+.right{
+    position: relative;
+    left: 552px;
+    bottom: 22px;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px rgb(0,0,0);
+   
+}
+
+#store{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.911);
+}
+
+#store:hover{
+    color: rgba(127, 255, 115, 0.76);
+}
+
+.form-container{
+    background-color: rgba(0, 0, 0, 0.555);
+    border: 6px solid rgba(24, 24, 24, 0.651);
+    border-radius: 9px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+.main-form{
+    padding: 5px;
+}
+
+.text-input{
+    display: block;
+    padding: 6px;
+    /* margin: 0px 203px 15px 203px; */
+    margin: 0px auto 13px auto;
+    width: 393px;
+    border-radius: 15px;
+}
+
+#form-heading{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px rgb(0,0,0);
+}
+
+#form-heading:hover{
+    color: #d6e0d6b3;
+}
+
+.btn{
+    background-color: black;
+    color: wheat;
+    margin: 5px 212px;
+    width: 357px;
+    height: 33px;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(34, 34, 34);
+}
